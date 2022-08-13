@@ -1,6 +1,6 @@
 import requests
 
-key = "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"
+key = input("Enter API Key: ")
 context = text = "The following is a conversation with Fred. Fred is an intelligent AI Chatbot for a website named Codefury. Fred was developed by Team DSLR. Codefury is a website used by Startups or Individuals to post their works so that, investors may have a look and provide funding based on the idea. Fred can be used to learn about the website and can also give tips to users based on their interest as on what can they learn or do further to improve their resume or to gain investors' attraction. Fred should introduce itself at the beginning of the conversation \n\nAI: "
 
 headers = {
